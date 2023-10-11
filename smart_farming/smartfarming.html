@@ -167,7 +167,7 @@
                                             <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800" id="winddirection_10m_dominant">-</div>
                                         </div>
                                         <div class="col-auto">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-lightning" viewBox="0 0 16 16">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="curre  ntColor" class="bi bi-lightning" viewBox="0 0 16 16">
                                                 <path d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641l2.5-8.5zM6.374 1 4.168 8.5H7.5a.5.5 0 0 1 .478.647L6.78 13.04 11.478 7H8a.5.5 0 0 1-.474-.658L9.306 1H6.374z"/>
                                               </svg>
                                         </div>
@@ -291,6 +291,7 @@
                 }
             };
             xhttp.open("GET", "https://api.open-meteo.com/v1/forecast?latitude=-8.2236&longitude=113.2362&daily=weathercode,apparent_temperature_max,apparent_temperature_min,uv_index_max,precipitation_probability_max,windspeed_10m_max,windgusts_10m_max,winddirection_10m_dominant,shortwave_radiation_sum,et0_fao_evapotranspiration&timezone=Asia%2FBangkok", true);
+            
             xhttp.send();
         }
         
